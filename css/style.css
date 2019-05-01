@@ -11,20 +11,20 @@
   display: flex;
 }
 
+.left-side-header > * {
+  border: 1px solid grey;
+}
+
 .right-side-header {
   /* width: 35%; */
   flex: 1 1 auto;
 }
 
-
 .logo-container {
-  flex: 1 1 auto;
+  flex: 0 1 auto;
   padding-left: 15px;
   display: flex;
-}
-
-.logo-container a {
-  text-decoration: none;
+  align-items: center;
 }
 
 .logo-container img {
@@ -35,7 +35,6 @@
 
 .logo-image-container {
   display: inline-block;
-  margin: auto 5px;
 
 }
 
@@ -43,7 +42,6 @@
   font-family: 'anothernightoutmedium';
   font-weight:normal;
   font-style:normal;
-  margin: auto 5px;
   display: inline-block;
   
 

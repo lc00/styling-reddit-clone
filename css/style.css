@@ -1,0 +1,41 @@
+@import "custom-fonts.css";
+
+.header-container {
+  height: 200px;
+}
+
+.left-side-header {
+  width: 850px;
+}
+
+.right-side-header {
+  width: 800px;
+}
+
+
+/* .logo-container {
+  width: 150px;
+  height: 100px;
+} */
+
+.logo-container img {
+  width: 50px;
+  height: 50px;
+  float: left;
+}
+
+.logo {
+  font-family: 'anothernightoutmedium';
+  font-weight:normal;
+  font-style:normal;
+  float: left;
+
+}
+
+.red {
+  color: red;
+}
+
+.search {
+  float: right
+}

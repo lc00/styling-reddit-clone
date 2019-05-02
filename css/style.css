@@ -1,7 +1,11 @@
 @import "custom-fonts.css";
 
+body {
+  margin-top: 0;
+}
+
 .header-container {
-  height: 50px;
+  height: 45px;
   display: flex;
   flex-flow: row wrap;
 }
@@ -27,6 +31,10 @@
   align-items: center;
 }
 
+.logo-container > * {
+  padding-right: 10px
+}
+
 .logo-container img {
   width: 35px;
   height: 35px;
@@ -48,9 +56,46 @@
 }
 
 .popular {
-  flex: 1 1 auto;
+  flex: 0 1 auto;
+  align-items: center;
+
+  display: flex;
+  flex-flow: row nowrap;
 
 }
+
+
+
+.popular img {
+  width: 15px;
+  height: 15px;
+}
+
+.popular > * {
+  flex: 1 1 auto;
+  padding-left: 10px;
+}
+
+.popular :first-child {
+  flex: 0 1 auto;
+}
+
+.popular :last-child  {
+  padding-right: 5px;
+  /* flex: 1 1 auto; */
+
+}
+
+.last-img {
+  display: flex;
+  justify-content: flex-end
+}
+
+.drop-down {
+  width: 130px;
+}
+
+
 
 .red {
   color: red;

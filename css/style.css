@@ -114,5 +114,60 @@ body {
 .right-side-header {
   /* width: 35%; */
   flex: 1 1 auto;
+  display: flex;
+  
 }
 
+.right-side-header section {
+  flex: 0 1 auto;
+  display: flex;
+  align-items: center;
+  
+}
+
+.right-side-header :first-child {
+  display: flex;
+  align-items: center
+}
+
+.right-side-header img{
+  /* width: 35%; */
+  width: 16px;
+  height: 16px;
+}
+
+.sm-btn {
+  width: 16px;
+  height: 16px;
+  padding: 8px;
+}
+
+.lg-btn {
+  width: 86px;
+  height: 24px;
+  padding: 8px;
+}
+
+.border-blue {
+  border: 1px solid rgb(0, 121, 211);
+}
+
+.background-blue {
+  background: rgb(0, 121, 211);
+}
+
+.blue {
+  color: rgb(0, 121, 211);
+}
+
+.white {
+  color: white;
+}
+
+.btn-group {
+  margin: 0 10px;
+}
+
+.btn-group span{
+  margin-right: 10px;
+}

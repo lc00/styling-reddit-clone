@@ -201,3 +201,22 @@ hr {
 .account-btn-group {
   font-size: 13px;
 }
+
+.view-container {
+  display: flex;
+  /* justify-content: center; */
+}
+
+.empty {
+  width: 230px;
+  /* height: 100px; */
+}
+
+.view {
+  display: flex;
+  align-items: center;
+}
+
+.view img {
+  width: 30px;
+}

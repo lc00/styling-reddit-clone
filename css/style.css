@@ -125,7 +125,7 @@ body {
   
 }
 
-.right-side-header :first-child {
+.right-side-header section:first-child {
   display: flex;
   align-items: center
 }
@@ -140,12 +140,19 @@ body {
   width: 16px;
   height: 16px;
   padding: 8px;
+  border-radius: 5%;
+  line-height: 16px;
 }
 
 .lg-btn {
   width: 86px;
   height: 24px;
-  padding: 8px;
+  padding: 3px 16px;
+  border-radius: 6%;
+  margin: 0 5px;
+  line-height: 24px;
+  text-align: center;
+  
 }
 
 .border-blue {

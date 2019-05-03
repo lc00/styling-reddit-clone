@@ -178,3 +178,9 @@ body {
 .btn-group span{
   margin-right: 10px;
 }
+
+hr {
+  width: 0px;
+  height: 60%;
+  border: 1px solid #F5F5F5;
+}

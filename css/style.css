@@ -147,6 +147,15 @@ body {
   line-height: 16px;
 }
 
+.med-btn {
+  width: 60px;
+  height: 20px;
+  /* padding: 3px 16px; */
+  /* margin: 0 5px; */
+  border-radius: 5%;
+  /* line-height: 15px */
+}
+
 .lg-btn {
   width: 86px;
   height: 24px;
@@ -156,6 +165,10 @@ body {
   line-height: 24px;
   text-align: center;
   
+}
+
+.no-border {
+  border: none;
 }
 
 .border-blue {
@@ -291,7 +304,6 @@ main section {
 .article header {
   display: flex;
   align-items: center;
-  margin: 10px;
 }
 
 .article h5 {
@@ -315,7 +327,7 @@ main section {
 }
 
 .article footer {
-  line-height: 50px;
+  line-height: 35px;
   display: flex;
   justify-content: flex-left;
   align-items: center
@@ -323,4 +335,25 @@ main section {
 
 .article footer > span {
   padding-right: 10px
+}
+
+.article-title {
+  font-size: 1.17em;
+  font-weight: bold;
+}
+
+.no-border {
+  border: none
+}
+
+.color-white {
+  color: white;
+}
+
+.indent-left-sm {
+  padding-left: 5px;
+}
+
+.padding-sm{
+  padding: 5px;
 }

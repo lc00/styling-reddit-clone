@@ -168,12 +168,12 @@ body {
 }
 
 .ex-lg-btn {
-  width: 120px;
+  width: 17-px;
   height: 24px;
   padding: 3px 16px;
   border-radius: 6%;
   line-height: 24px;
-  
+  text-align: center;  
 }
 
 .no-border {
@@ -380,6 +380,18 @@ aside section {
   flex-flow: column nowrap
 }
 
+aside h5 {
+  width: 200px;
+}
+
 .margin-sm {
   margin: 20px;
+}
+
+.relative-pos {
+  position: relative;
+}
+
+.abs-pos {
+  position: absolute;
 }

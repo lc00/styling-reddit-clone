@@ -247,16 +247,18 @@ hr {
 .view-container {
   display: flex;
   /* justify-content: center; */
+  align-items: center;
 }
 
 .empty {
-  width: 220px;
+  width: 310px;
   /* height: 100px; */
+  
 }
 
 .view {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   border-right: 1px solid #F5F5F5;
 
 }
@@ -281,10 +283,6 @@ hr {
   font-weight: bold;
 }
 
-.view-container * {
-  /* padding-right: 5px */
-}
-
 .view-container div {
   padding: 0 5px;
 }
@@ -298,15 +296,13 @@ hr {
 }
 
 .sort div {
-  padding: 0 5px
+  padding: 0 5px;
+  display: flex;
+  align-items: center;
 }
 
-.sort div>span {
-  color: rgb(0, 121, 211)
-}
-
-.sort div>span:nth-child(1) {
-  color: RGB(183,186,187)
+.sort div > * {
+  padding-right: 5px;
 }
 
 .content {

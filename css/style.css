@@ -196,6 +196,9 @@ body {
   background: white;
 }
 
+.background-light-grey {
+  background: #f5f5f5
+}
 
 .blue {
   color: rgb(0, 121, 211);
@@ -203,6 +206,10 @@ body {
 
 .white {
   color: white;
+}
+
+.grey {
+  color: RGB(183,186,187)
 }
 
 .btn-group {
@@ -294,8 +301,12 @@ hr {
   padding: 0 5px
 }
 
-.sort span {
+.sort div>span {
   color: rgb(0, 121, 211)
+}
+
+.sort div>span:nth-child(1) {
+  color: RGB(183,186,187)
 }
 
 .content {
@@ -339,11 +350,6 @@ main img {
 }
 
 
-
-
-.color-grey{
-  color: RGB(183,186,187)
-}
 
 .article button{
   margin-left: auto;

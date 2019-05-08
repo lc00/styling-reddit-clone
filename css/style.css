@@ -116,7 +116,7 @@ body {
 
 
 .right-side-header {
-  /* width: 35%; */
+  /* width: 35%; */f
   flex: 1 1 auto;
   display: flex;
   
@@ -167,6 +167,15 @@ body {
   
 }
 
+.ex-lg-btn {
+  width: 120px;
+  height: 24px;
+  padding: 3px 16px;
+  border-radius: 6%;
+  line-height: 24px;
+  
+}
+
 .no-border {
   border: none;
 }
@@ -178,6 +187,15 @@ body {
 .background-blue {
   background: rgb(0, 121, 211);
 }
+
+.background-grey {
+  background: rgb(213,220,226)
+}
+
+.background-white {
+  background: white;
+}
+
 
 .blue {
   color: rgb(0, 121, 211);
@@ -310,12 +328,11 @@ main section {
   margin: 0
 }
 
-.backgnd-grey {
-  background: grey;
-}
+
+
 
 .color-grey{
-  color: #f5f5f5
+  color: RGB(183,186,187)
 }
 
 .article button{
@@ -356,4 +373,13 @@ main section {
 
 .padding-sm{
   padding: 5px;
+}
+
+aside section {
+  display: flex;
+  flex-flow: column nowrap
+}
+
+.margin-sm {
+  margin: 20px;
 }
